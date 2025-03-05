@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My ApplicationListy3p1</string>
+    <string-array name="produkty">
+        <item>bułki</item>
+        <item>woda</item>
+        <item>sok pomarańczowy</item>
+        <item>banany</item>
+    </string-array>
+</resources>
