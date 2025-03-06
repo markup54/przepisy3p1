@@ -57,5 +57,15 @@ public class Repozytorium {
         );
 
     }
+    public static ArrayList<Przepis> wszystkiePrzepisyZKategorii(String kategoria){
+        wygenerujPrzepisy();
+        ArrayList<Przepis> przepisyZKategorii = new ArrayList<>();
+        for (Przepis przepis:przepisy) {
+            if(przepis.getKategoria().equals(kategoria)){
+                przepisyZKategorii.add(przepis);
+            }
+        }
+        return przepisyZKategorii;
+    }
 
 }
